@@ -22,7 +22,7 @@ function NavBar() {
                                 className="nav-links"
                                 onClick={handleClick}
                             >
-                                Home
+                                HOME
                             </a>
                         </li>
                         <li className="nav-item">
