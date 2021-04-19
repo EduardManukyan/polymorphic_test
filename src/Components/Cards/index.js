@@ -23,7 +23,12 @@ const useStyles = makeStyles({
     }
 });
 
-function Cards({}) {
+function Cards({
+                   imgUrl,
+                   title,
+                   date,
+                   text
+               }) {
     const classes = useStyles();
 
     return (
@@ -40,9 +45,9 @@ function Cards({}) {
                     />
                 </CardActionArea>
                 <div>
-                    <h3>Something I need to tell you</h3>
-                    <h6>MAY 16, 2016</h6>
-                    <span>Mauris sed odio tincidunt, volutpat gue, commodo dui. Phasellus hendrerit condi ntum vehicula.</span>
+                    <h3>{title}</h3>
+                    <h6>{date}</h6>
+                    <span>{text}</span>
                 </div>
             </Card>
         </div>
