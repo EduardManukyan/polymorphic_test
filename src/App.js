@@ -1,12 +1,12 @@
 import React from "react";
 import NavBar from "./Components/Header/NavBar";
 import Footer from "./Components/Footer/footer";
-import Cards from "./Components/Cards";
+import CardContainer from "./Components/Cards/cardContainer";
 function App() {
     return (
         <>
             <NavBar/>
-            <Cards/>
+            <CardContainer/>
             <Footer/>
         </>
 
