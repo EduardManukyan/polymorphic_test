@@ -5,3 +5,4 @@ function Work (){
         <div>Work</div>
     )
 }
+export default Work

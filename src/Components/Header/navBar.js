@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import "../Header/style.scss"
 import MenuIcon from '@material-ui/icons/Menu';
-
+import {NavLink} from "react-router-dom";
 
 function NavBar() {
     const [click, setClick] = useState(false);
@@ -9,69 +9,70 @@ function NavBar() {
     const handleClick = () => setClick(!click);
     return (
         <>
-            <nav className="navbar">
-                <div className="nav-container">
-                    <span className="nav-logo">
+
+            <nav className={"navbar"}>
+                <div className={"nav-container"}>
+                    <span className={"nav-logo"}>
                        Polymorphic
                     </span>
 
                     <ul className={click ? "nav-menu active" : "nav-menu"}>
-                        <li className="nav-item">
-                            <a
+                        <li className={"nav-item"}>
+                            <NavLink exact to="/"
 
-                                className="nav-links"
+                                className={"nav-links"}
                                 onClick={handleClick}
                             >
                                 HOME
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <a
+                        <li className={"nav-item"}>
+                            <NavLink exact to="/work"
 
-                                className="nav-links"
+                                className={"nav-links"}
                                 onClick={handleClick}
                             >
                                 WORK
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <a
+                        <li className={"nav-item"}>
+                            <NavLink exact to="/about"
 
-                                className="nav-links"
+                                className={"nav-links"}
                                 onClick={handleClick}
                             >
                                 ABOUT
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <a
+                        <li className={"nav-item"}>
+                            <NavLink exact to="/blog"
 
-                                className="nav-links"
+                                className={"nav-links"}
                                 onClick={handleClick}
                             >
                                 BLOG
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <a
+                        <li className={"nav-item"}>
+                            <NavLink exact to="/contact"
 
-                                className="nav-links"
+                                className={"nav-links"}
                                 onClick={handleClick}
                             >
                                 CONTACT
-                            </a>
+                            </NavLink>
                         </li>
-                        <li className="nav-item">
-                            <a
+                        <li className={"nav-item"}>
+                            <NavLink exact to="/buy-theme"
 
-                                className="nav-links"
+                                className={"nav-links"}
                                 onClick={handleClick}
                             >
                                 BUY THEME
-                            </a>
+                            </NavLink>
                         </li>
                     </ul>
-                    <div className="nav-icon" onClick={handleClick}>
+                    <div className={"nav-icon"} onClick={handleClick}>
                         <MenuIcon/>
                     </div>
                 </div>

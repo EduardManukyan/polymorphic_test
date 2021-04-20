@@ -18,9 +18,10 @@ function CardContainer() {
     return (
         <Grid
             container
-            spacing={2}
+            spacing={0}
             className={classes.gridContainer}
             justify="center"
+            width="100%"
         >{
             DataArray.map((item) => (
                 <Grid item xs={12} sm={6} md={4}>

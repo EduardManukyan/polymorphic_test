@@ -3,6 +3,7 @@ import "../Footer/style.scss"
 
 function Footer() {
     return (
+        <div>
         <div className={"footerMainContainer"} >
             <div className={"container"}>
                 <img className={"imgStyle"} src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcToNuV6QdAqhGR7Z1NNpzcMjUA0irKWNr4xeA&usqp=CAU" alt=""/>
@@ -12,6 +13,7 @@ function Footer() {
                 <img className={"imgStyle"} src="https://cdn.iconscout.com/icon/free/png-256/pinterest-85-434734.png" alt=""/>
                 <img className={"imgStyle"} src="https://toppng.com/uploads/preview/twitter-logo-vector-grey-11549680332eye4q1nix2.png" alt=""/>
             </div>
+        </div>
         </div>
     )
 }

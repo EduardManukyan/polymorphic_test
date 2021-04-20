@@ -5,3 +5,4 @@ function BuyTheme(){
         <div>BuyTheme</div>
     )
 }
+export default BuyTheme
