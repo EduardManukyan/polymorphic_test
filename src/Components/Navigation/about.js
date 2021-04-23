@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../Navigation/style.scss"
 function About(){
     return(
-        <div>About</div>
+        <div className={"containers"}>About</div>
     )
 }
 export default About

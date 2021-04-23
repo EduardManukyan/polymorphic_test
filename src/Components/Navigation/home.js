@@ -1,8 +1,8 @@
 import React from "react";
-
+import "../Navigation/style.scss"
 function Home (){
     return(
-        <div>Home</div>
+        <div className={"containers"}>Home</div>
     )
 }
 export default Home

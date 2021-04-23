@@ -1,6 +1,5 @@
 import React from "react";
 import Footer from "./Components/Footer/footer";
-import CardContainer from "./Components/Cards/cardContainer";
 import NavBar from "./Components/Header/navBar";
 import Home  from "./Components/Navigation/home"
 import About from "./Components/Navigation/about";
@@ -15,8 +14,6 @@ function App() {
         <>
             <Router>
                 <NavBar/>
-
-
 
             <Switch>
                 <Route exact path="/" component={Home}/>
