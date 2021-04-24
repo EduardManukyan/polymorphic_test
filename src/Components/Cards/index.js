@@ -7,7 +7,6 @@ import CardMedia from '@material-ui/core/CardMedia';
 const useStyles = makeStyles({
     root: {
         maxWidth: 600,
-
     },
     img: {
         background: '#DFDFDF 0% 0% no-repeat padding-box',
@@ -51,7 +50,7 @@ function Cards({
             </Card>
         </div>
 
-    )
-}
+    );
+};
 
 export default Cards

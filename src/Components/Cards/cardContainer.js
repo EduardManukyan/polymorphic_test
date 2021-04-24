@@ -34,11 +34,9 @@ function CardContainer() {
                     />
                 </Grid>
             ))
-
-        }
-
+        };
         </Grid>
-    )
-}
+    );
+};
 
 export default CardContainer

@@ -76,7 +76,8 @@
   .nav-menu {
     display: flex;
     flex-direction: column;
-    width: 100%;
+    width: 30%;
+    padding-inline-start: 0;
     border-top: 1px solid #fff;
     position: absolute;
     top: 80px;
@@ -85,8 +86,12 @@
     transition: all 0.5s ease;
   }
 
+  .nav-links{
+    color: #f5b921;
+  }
+
   .nav-menu.active {
-    background: #1f5156;
+    background: #1f4556;
     left: 0px;
     opacity: 1;
   }

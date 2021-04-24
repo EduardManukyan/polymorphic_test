@@ -11,7 +11,7 @@ const DataArray = [
         date: "MAY 22, 2016",
         text: "Aenean libero erat, sollicitudin in enim, egestas convallis arcu. Nunc ligula felis, cursus nec pellentesque at.",
         style: {height: "500px"},
-        imgStyle:{height: "320px"}
+        imgStyle: {height: "320px"}
     },
     {
         img: "https://thumbs.dreamstime.com/b/environment-earth-day-hands-trees-growing-seedlings-bokeh-green-background-female-hand-holding-tree-nature-field-gra-130247647.jpg",
@@ -44,8 +44,8 @@ const DataArray = [
         title: "Five things about Nature",
         date: "JUNE 03, 2016",
         text: "Aenean libero erat, sollicitudin in enim, egestas convallis arcu. Nunc ligula felis, cursus nec pellentesque at.",
-        style: {height: "500px",marginTop: "-100px"},
-        imgStyle:{height: "320px"}
+        style: {height: "500px", marginTop: "-100px"},
+        imgStyle: {height: "320px"}
     },
     {
         img: "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8IxHEATdvkq6mlV0wtmbLRq-Gbsc4jhgNupE2ix6dT8IQC2O3yyix2rqoH4d15anQUtw&usqp=CAU",
@@ -58,8 +58,8 @@ const DataArray = [
         title: "My Favorite Place on earth is...",
         date: "JUNE 12, 2016",
         text: "Vestibulum maximus molestie accumsan. Etiam vitae est arcu. Morbi sit amet ex. Nam consectetur maximus ornare.",
-        style: {height: "500px",marginTop: "-100px"},
-        imgStyle:{height: "320px"}
+        style: {height: "500px", marginTop: "-100px"},
+        imgStyle: {height: "320px"}
     },
 ];
 export {DataArray};

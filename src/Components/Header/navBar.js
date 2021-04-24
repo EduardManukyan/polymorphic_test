@@ -5,7 +5,6 @@ import {NavLink} from "react-router-dom";
 
 function NavBar() {
     const [click, setClick] = useState(false);
-
     const handleClick = () => setClick(!click);
     return (
         <>
@@ -71,6 +70,6 @@ function NavBar() {
             </nav>
         </>
     );
-}
+};
 
 export default NavBar;

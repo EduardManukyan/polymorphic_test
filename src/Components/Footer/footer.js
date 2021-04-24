@@ -14,9 +14,7 @@ function Footer() {
                 <Instagram className={"imgStyle"}/>
             </div>
         </div>
-
-
-    )
-}
+    );
+};
 
 export default Footer
